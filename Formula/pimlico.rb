@@ -4,28 +4,28 @@
 class Pimlico < Formula
   desc "Terminal client and MCP server for Pimlico account abstraction infrastructure"
   homepage "https://docs.pimlico.io"
-  version "1.0.0"
+  version "1.0.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://registry.npmjs.org/@pimlico/cli-darwin-arm64/-/cli-darwin-arm64-1.0.0.tgz"
-      sha256 "c5bea1926de27bcb7641f24c7213a887cde91ddcee70904c61242bcb224d1681"
+      url "https://registry.npmjs.org/@pimlico/cli-darwin-arm64/-/cli-darwin-arm64-1.0.1.tgz"
+      sha256 "79453e4dc5de36d3cb3b51369f8ad030a3c1ac53c2ab5dea13c57c541af75f64"
     end
     on_intel do
-      url "https://registry.npmjs.org/@pimlico/cli-darwin-x64/-/cli-darwin-x64-1.0.0.tgz"
-      sha256 "8f1e6127bcf7c0f9a8f026e358e4a8f1f70d2bed9f22cf74eb555126226c26e2"
+      url "https://registry.npmjs.org/@pimlico/cli-darwin-x64/-/cli-darwin-x64-1.0.1.tgz"
+      sha256 "33bdac02abf5393c52a3fa783f96c1e7f48e7f915bf87395a5b8baab3d73c4ed"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://registry.npmjs.org/@pimlico/cli-linux-arm64/-/cli-linux-arm64-1.0.0.tgz"
-      sha256 "2a1fd8f23b96965bfd12f1ef4dc3b1a2299984d0603368a95ea3b1a3b40f8d56"
+      url "https://registry.npmjs.org/@pimlico/cli-linux-arm64/-/cli-linux-arm64-1.0.1.tgz"
+      sha256 "9a8723914a86deea5c8ecfe8205b1e19dee0aec68de404afc7084d9ace24ae59"
     end
     on_intel do
-      url "https://registry.npmjs.org/@pimlico/cli-linux-x64/-/cli-linux-x64-1.0.0.tgz"
-      sha256 "dd0b001c6fcd13038ddf4576d7813c31ed81a3c8ab0210e7a8ad36d02eeb69ba"
+      url "https://registry.npmjs.org/@pimlico/cli-linux-x64/-/cli-linux-x64-1.0.1.tgz"
+      sha256 "7526886f50af6ee65d273aa066349e45b8a7b6ce9f03130e48754d724b9a6720"
     end
   end
 
